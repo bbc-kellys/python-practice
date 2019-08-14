@@ -3,7 +3,7 @@ This repo is essentially what it says on the tin. I am using this space to learn
 
 https://www.practicepython.org/exercise/2014/01/29/01-character-input.html
 
-https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech
+https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6
 
 & elsewhere.
 
