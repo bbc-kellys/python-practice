@@ -1,0 +1,2 @@
+def characterinput():
+    print 'hello'
