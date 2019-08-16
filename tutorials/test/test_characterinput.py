@@ -1,10 +1,16 @@
+import StringIO
 import sys
 import unittest
-from characterinput import characterinput
+from characterinput.characterinput import printer
 
-class TestCharInput(unittest.TestCase):
+
+class chartests(unittest.TestCase):
     def test(self):
-        self.assertEqual(characterinput())
+        capturedOutput = StringIO.StringIO()
+        sys.stdout = capturedOutput
+        printer()
+        sys.stdout = sys.__stdout__
+        print 'Captured', capturedOutput.getValue()
 
 
 if __name__ == '__main__':
